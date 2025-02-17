@@ -68,7 +68,7 @@ class InfoWindow {
   }
 
   @override
-  int get hashCode => hashValues(title, snippet);
+  int get hashCode => Object.hash(title, snippet);
 
   @override
   String toString() {

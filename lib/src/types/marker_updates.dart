@@ -91,7 +91,7 @@ class MarkerUpdates {
 
   @override
   int get hashCode =>
-      hashValues(markersToAdd, markerIdsToRemove, markersToChange);
+      Object.hash(markersToAdd, markerIdsToRemove, markersToChange);
 
   @override
   String toString() {
