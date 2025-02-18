@@ -1,8 +1,8 @@
-## 【3.1.0】 - 2025-02-18.
+## 【3.1.1】 - 2025-02-18.
 * 升级Flutter 3.0.0以上版本，解决hashValues报错
 * 解决 AAPT: error: resource android:attr/lStar not found报错
 * 解决Namespace not specified.报错
-* 
+
 ## 【3.0.0】 - 2021-11-23.
 * AMapWidget初始化时需要传入高德隐私合规配置参数privacyStatement
 * 高德SDK合规使用方案请参考：https://lbs.amap.com/news/sdkhgsy

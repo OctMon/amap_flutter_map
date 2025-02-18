@@ -25,7 +25,7 @@ class MethodChannelAMapFlutterMap implements AMapFlutterPlatform {
   Future<void> init(int mapId) {
     MethodChannel? channel = _channels[mapId];
     if (channel == null) {
-      channel = MethodChannel('amap_flutter_map_plus_$mapId');
+      channel = MethodChannel('amap_flutter_map_$mapId');
       channel.setMethodCallHandler((call) => _handleMethodCall(call, mapId));
       _channels[mapId] = channel;
     }
