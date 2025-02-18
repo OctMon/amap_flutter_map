@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 import 'dart:ui' show Offset;
-import 'package:amap_flutter_map/src/types/base_overlay.dart';
-import 'package:amap_flutter_base/amap_flutter_base.dart';
+import 'package:amap_flutter_map_plus/src/types/base_overlay.dart';
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart';
 import 'bitmap.dart';
 
 /// Marker拖动回调

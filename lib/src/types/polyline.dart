@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:amap_flutter_map/src/types/bitmap.dart';
+import 'package:amap_flutter_map_plus/src/types/bitmap.dart';
 import 'package:flutter/foundation.dart' show listEquals;
 import 'package:flutter/material.dart' show Color;
-import 'package:amap_flutter_base/amap_flutter_base.dart';
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart';
 import 'base_overlay.dart';
 
 /// 虚线类型

@@ -1,11 +1,11 @@
-import 'package:amap_flutter_map/src/core/method_channel_amap_flutter_map.dart';
+import 'package:amap_flutter_map_plus/src/core/method_channel_amap_flutter_map.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/services.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
-/// “amap_flutter_map”平台特定实现必须扩展的接口
+/// “amap_flutter_map_plus”平台特定实现必须扩展的接口
 abstract class AMapFlutterPlatform extends PlatformInterface {
   static final Object _token = Object();
   AMapFlutterPlatform() : super(token: _token);

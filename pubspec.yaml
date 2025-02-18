@@ -1,4 +1,4 @@
-name: amap_flutter_map
+name: amap_flutter_map_plus
 description: 高德地图SDK Flutter插件
 version: 3.1.0
 homepage: https://lbs.amap.com/
@@ -15,7 +15,7 @@ dependencies:
   plugin_platform_interface: ^2.0.0
   stream_transform: ^2.0.0
 
-  amap_flutter_base: ^3.0.0
+  amap_flutter_base_plus: ^3.1.0
 #  amap_flutter_base:
 #    path: ../amap_flutter_base
 dev_dependencies:

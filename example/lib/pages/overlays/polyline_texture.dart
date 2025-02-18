@@ -1,8 +1,8 @@
-import 'package:amap_flutter_map/amap_flutter_map.dart';
+import 'package:amap_flutter_map_plus/amap_flutter_map_plus.dart';
 import 'package:amap_flutter_map_example/base_page.dart';
 import 'package:flutter/material.dart';
 
-import 'package:amap_flutter_base/amap_flutter_base.dart';
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart';
 
 class PolylineTextureDemoPage extends BasePage {
   PolylineTextureDemoPage(String title, String subTitle)

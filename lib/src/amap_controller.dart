@@ -1,4 +1,4 @@
-part of amap_flutter_map;
+part of amap_flutter_map_plus;
 
 final MethodChannelAMapFlutterMap _methodChannel = AMapFlutterPlatform.instance as MethodChannelAMapFlutterMap;
 

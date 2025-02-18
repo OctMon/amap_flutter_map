@@ -1,4 +1,4 @@
-import 'package:amap_flutter_base/amap_flutter_base.dart';
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart';
 
 class ConstConfig {
   static const AMapApiKey amapApiKeys =

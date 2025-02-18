@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:amap_flutter_base/amap_flutter_base.dart';
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart';
 
 void main() {
   test('Distance between two different point', () {

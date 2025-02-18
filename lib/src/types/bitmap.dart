@@ -6,7 +6,7 @@ import 'dart:async' show Future;
 import 'dart:typed_data' show Uint8List;
 import 'dart:ui';
 
-import 'package:amap_flutter_base/amap_flutter_base.dart' show AMapUtil;
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart' show AMapUtil;
 import 'package:flutter/material.dart'
     show ImageConfiguration, AssetImage, AssetBundleImageKey;
 import 'package:flutter/services.dart' show AssetBundle;
@@ -78,7 +78,7 @@ class BitmapDescriptor {
     }
     return BitmapDescriptor._(<dynamic>[
       'fromAssetImage',
-      "packages/amap_flutter_map/res/$filename",
+      "packages/amap_flutter_map_plus/res/$filename",
       AMapUtil.devicePixelRatio
     ]);
   }

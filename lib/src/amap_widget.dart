@@ -1,4 +1,4 @@
-part of amap_flutter_map;
+part of amap_flutter_map_plus;
 
 typedef void MapCreatedCallback(AMapController controller);
 

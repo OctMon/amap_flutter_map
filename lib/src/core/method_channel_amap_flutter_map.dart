@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:amap_flutter_base/amap_flutter_base.dart';
-import 'package:amap_flutter_map/src/core/amap_flutter_platform.dart';
-import 'package:amap_flutter_map/src/types/types.dart';
+import 'package:amap_flutter_base_plus/amap_flutter_base_plus.dart';
+import 'package:amap_flutter_map_plus/src/core/amap_flutter_platform.dart';
+import 'package:amap_flutter_map_plus/src/types/types.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
@@ -25,7 +25,7 @@ class MethodChannelAMapFlutterMap implements AMapFlutterPlatform {
   Future<void> init(int mapId) {
     MethodChannel? channel = _channels[mapId];
     if (channel == null) {
-      channel = MethodChannel('amap_flutter_map_$mapId');
+      channel = MethodChannel('amap_flutter_map_plus_$mapId');
       channel.setMethodCallHandler((call) => _handleMethodCall(call, mapId));
       _channels[mapId] = channel;
     }
