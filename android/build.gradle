@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    namespace 'com.amap.flutter.dmap'  // 添加 namespace
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 16
